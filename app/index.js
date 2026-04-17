@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send('<h1>Deployed via Docker + Nginx + GitHub Actions</h1>');
+  res.send('<h1>Deployed by Ochuba Victor via Docker + Nginx + GitHub Actions</h1>');
 });
 
 app.listen(3000, () => {
